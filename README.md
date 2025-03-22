@@ -1,1 +1,1 @@
-A plain old apple package.
+A plain old ios/macos package.

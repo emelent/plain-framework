@@ -10,8 +10,8 @@ repositories {
 }
 
 kotlin {
-    val buildNumber = 3
-    val version = "0.0.3"
+    val buildNumber = 4
+    val version = "0.0.4"
     val name = "plain"
     val xcf = XCFramework(name)
 
@@ -19,6 +19,7 @@ kotlin {
         iosX64(),
         iosArm64(),
         iosSimulatorArm64(),
+        macosX64(),
     ).forEach {
         it.binaries.framework {
             baseName = name
