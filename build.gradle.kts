@@ -10,8 +10,8 @@ repositories {
 }
 
 kotlin {
-    val buildNumber = 1
-    val version = "0.0.1"
+    val buildNumber = 2
+    val version = "0.0.2"
     val name = "plain"
     val xcf = XCFramework(name)
 
