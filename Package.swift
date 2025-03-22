@@ -12,7 +12,7 @@ let package = Package(
    targets: [
       .binaryTarget(
          name: "plain",
-         url: "https://github.com/emelent/plain-framework/releases/download/0.0.2/plain.xcframework.zip",
-         checksum:"0e0b2b3d62abeba871fd0e1500190478c568cd0ce099dd1cdd997103b18e92cc")
+         url: "https://github.com/emelent/plain-framework/releases/download/0.0.3/plain.xcframework.zip",
+         checksum:"36f67cea87c4f22f242d95cede09620caaea10c9043c9f1b11c3223665f18766")
    ]
 )
