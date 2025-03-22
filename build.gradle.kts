@@ -8,12 +8,18 @@ repositories {
 }
 
 kotlin {
+    val buildNumber = 1
+    val version = "0.0.1"
+    val name = "plain"
+
     iosArm64("native") {
         binaries {
             framework {
-                baseName = "plain"
+                baseName = name
                 binaryOption("bundleId", "io.github.emelent.plain")
-                binaryOption("bundleVersion", "0.0.1")
+                binaryOption("bundleVersion", "$buildNumber")
+                binaryOption("bundleShortVersionString", version)
+
             }
         }
     }
