@@ -12,7 +12,7 @@ kotlin {
     val version = "0.0.1"
     val name = "plain"
 
-    iosArm64("native") {
+    iosArm64 {
         binaries {
             framework {
                 baseName = name
