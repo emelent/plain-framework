@@ -6,8 +6,8 @@ plugins { kotlin("multiplatform") version "2.1.20" }
 repositories { mavenCentral() }
 
 kotlin {
-    val buildNumber = 5
-    val version = "0.0.5"
+    val buildNumber = 6
+    val version = "0.0.6"
     val name = "plain"
     val xcf = XCFramework(name)
 
@@ -16,6 +16,7 @@ kotlin {
         iosArm64(),
         iosSimulatorArm64(),
         macosX64(),
+        macosArm64(),
     )
         .forEach {
             it.binaries.framework {
